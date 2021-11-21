@@ -93,7 +93,6 @@ void SieveOfEratosthenes(int n,vector<int> &primes)
         }
     }
  
-    // Print all prime numbers
     for (int p = 2; p <= n; p++)
         if (prime[p])
             primes.push_back(p*p);
